@@ -33,7 +33,7 @@ class App
     case option
     when 1..6 then option_func(option)
     when 7 then puts 'Thank you for using this app'
-    else puts 'please enter a valid number'
+    else puts hello
     end
   end
 
